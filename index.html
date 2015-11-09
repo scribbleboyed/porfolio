@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Edward Yeh</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700,200' rel='stylesheet' type='text/css'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body ng-app="">
+
+	<!-- HEADER NAV BAR -->
+
+	<nav class="nav-top" id="navigation">
+	  <div class="container-fluid">
+	  	<div class="nav-title">
+	      	<b>EDWARD YEH</b>
+	      	<span style="font-size: 13px;"><i>Full Stack Web Developer</i></span>
+	    </div>
+		<div class="nav-buttons">
+	      	<a href="#summary-div">About Me</a>
+	        <a href="#projects-div">Dev Projects</a>
+	        <a href="#summary2-div">Skills</a>
+	        <a href="#contact">Contact</a>
+	    </div>
+      </ul>
+
+	  </div>
+	</nav>
+
+	<!-- HEADER -->
+
+	<div id="main-header">
+		<div class="header-info">
+			<span id="header-name">EDWARD YEH</span><br/>
+			<span id="header-title">Full Stack Web Developer</span>
+			<br/>
+			<p id="header-summary">My passions have always led me down a path of creativity and design. I've lived a life dedicated to continual learning and improvement. My years as a chemical engineer honed my ability to solve technical problems at a rapid pace and I decided to take these skills to pursue a career in a field I'm dedicated to influence.</p>
+			<img id="profile-pic" src="images/profile.jpg"><br/>
+			<span class="contact-icon">
+				<a href="mailto:edyeh@ucla.edu"><i class="fa fa-envelope fa-lg"></i></a>
+				<a href="https://github.com/scribbleboyed"><i class="fa fa-github fa-lg"></i></a>
+				<a href="https://www.linkedin.com/in/edyeh8"><i class="fa fa-linkedin-square fa-lg"></i></a>
+			</span>
+		</div>
+	</div>
+
+	<!-- SUMMARY -->
+
+	<div id="summary-div" class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4 summary">
+				<h4 class="summary-title">Developer / Designer</h4>
+				During the pre-Facebook days of yore, I made websites mainly to post embarrassing photos of my friends or fansites for bands I liked.  Luckily, the desire to design and program remained my passions to this day.
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 summary">
+				<h4 class="summary-title-color">Musician</h4>
+				If I had to be stranded on an island, I might be okay with just a guitar or a keyboard in hand.  
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-4 summary">
+				<h4 class="summary-title">Photographer</h4>
+				I never leave home without my trusty DSLR.  Photography manages to make even the most boring things in the world into something beautiful... with the right lighting.  
+			</div>
+		</div>	
+	</div>
+
+	<div id="projects-div" class="container-fluid">
+
+		<div class="container">
+
+			<h1 id="projects-div-title">
+				<span class="projects-div-title-color">DEV</span> PROJECTS
+			</h1>
+
+			<div class="row">
+
+				<div class="project-div col-xs-12 col-sm-6">
+					<div class="project" style="background: url('images/pokescape.png'); background-size: cover; background-position: bottom;">
+						<h1 class="project-title">
+							POKESCAPE
+							<span class="project-subtitle">2-Player Race & Chase Game</span>
+						</h1>
+					</div>
+					<div>
+						<h4 class="project-skill">
+							<a href="http://scribbleboyed.github.io/wdi-pokescape"><button class="btn btn-sm btn-danger"><i class="fa fa-arrow-circle-up"></i> View Project</button></a>
+							<a href="https://github.com/scribbleboyed/wdi-pokescape"><button class="btn btn-sm btn-info"><i class="fa fa-github"></i> View on Github</button></a>
+							<span class="label label-default skill"><i class="fa fa-html5"></i> HTML5 Canvas</span>
+							<span class="label label-default skill"><i class="fa fa-css3"></i> CSS3</span>
+							<span class="label label-default skill">Vanilla Javascript</span>
+						</h4>
+						<p class="project-summary">A multiplayer game created using Vanilla Javascript.  It's a race against the clock and your opponent to get inside the building undetected! If you're spotted, RUN and PUSH your way towards the goal!</p>
+					</div>
+				</div>
+
+				<div class="project-div col-xs-12 col-sm-6">
+					<div class="project" style="background: url('http://evusa.com/uploads/neighborhoodphotos/office/136/25/beverly%20hills%20property.jpg'); background-size: cover; background-position: bottom;">
+						<h1 class="project-title">
+							AGENT MANUAL
+							<span class="project-subtitle">Real Estate Listing Manager</span>
+						</h1>
+					</div>
+					<div>
+						<h4 class="project-skill">
+							<a href="https://agentmanual.herokuapp.com/"><button class="btn btn-sm btn-danger"><i class="fa fa-arrow-circle-up"></i> View Project</button></a>
+							<a href="https://github.com/scribbleboyed/web-agentmanual"><button class="btn btn-sm btn-info"><i class="fa fa-github"></i> View on Github</button></a>
+							<span class="label label-default skill"><i class="fa fa-html5"></i> HTML5</span>
+							<span class="label label-default skill"><i class="fa fa-css3"></i> CSS3</span>
+							<span class="label label-default skill">JQuery</span>
+							<span class="label label-default skill">Ruby on Rails</span>
+						</h4>
+						<p class="project-summary">A Ruby on Rails tool I made for real estate agents to manage their businesses.  Features include the ability to set up events, post listings, and keep track of potential prospects.
+						<br/><br/>
+						To test the application, login using the account: <b>edyeh@ucla.edu</b>, pw: <b>Password1</b>.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<div class="project" style="background: url('http://barcodedc.com/wp-content/gallery/food/pizza-junk-food-600.jpg'); background-size: cover; background-position: bottom;">
+						<h1 class="project-title">
+							COOKING TRAILERS
+							<span class="project-subtitle">Quick Gif Recipe Book</span>
+						</h1>
+					</div>
+					<div>
+						<h4 class="project-skill">
+							<a href="http://cookingtrailers.herokuapp.com"><button class="btn btn-sm btn-danger"><i class="fa fa-arrow-circle-up"></i> View Project</button></a>
+							<a href="https://github.com/scribbleboyed/wdi-cooking-trailers"><button class="btn btn-sm btn-info"><i class="fa fa-github"></i> View on Github</button></a>
+							<span class="label label-default skill">JQuery</span>
+							<span class="label label-default skill">AJAX</span>
+							<span class="label label-default skill">Node.js</span>
+							<span class="label label-default skill">Express</span>
+							<span class="label label-default skill">MongoDB</span>
+						</h4>
+						<p class="project-summary">A project with a mission to convince the non-believers that even they can cook and do it quickly.  The site aggregates quick recipe videos and provides cooking instructions with a friendly interface.
+						<br/><br/>
+						This project was collaboration with the General Assembly User Experience class.</p>
+						<br/>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-6">
+					<div class="project" style="background: url('images/calendar.png'); background-size: cover; background-position: bottom;">
+						<h1 class="project-title">
+							CALENDAR
+							<span class="project-subtitle">Friends-focused Mobile Calendar</span>
+						</h1>
+					</div>
+					<div>
+						<h4 class="project-skill">
+							<button class="btn btn-sm btn-default">Coming Soon</button>
+							<a href="https://github.com/scribbleboyed/wdi-calendar"><button class="btn btn-sm btn-info"><i class="fa fa-github"></i> View on Github</button></a>
+							<span class="label label-default skill">AngularJS</span>
+							<span class="label label-default skill">Ionic</span>
+							<span class="label label-default skill">MEAN Stack</span>
+						</h4>
+						<p class="project-summary">An iPhone calendar application, made with AngularJS and Ionic, with focus on your relationships with friends and family.  Log in with Facebook and create an event with one friend or many friends with a single drap and drop.
+							<br/><br/>
+							This project is still a work in progress and has not been deployed to the Apple Appstore.</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="summary2-div" class="container">
+
+		<div class="col-xs-12 col-sm-2">
+			<h3>Current Skills:</h3>
+		</div>
+
+		<div class="col-xs-6 col-sm-2">
+			<div class="panel panel-info skill"><div class="panel-heading">HTML5</div></div>
+			<div class="panel panel-info skill"><div class="panel-heading">CSS3</div></div>
+			<div class="panel panel-info skill"><div class="panel-heading">JAVASCRIPT</div></div>
+			<div class="panel panel-info skill"><div class="panel-heading">JQUERY</div></div>
+			<div class="panel panel-info skill"><div class="panel-heading">RUBY</div></div>
+		</div>
+
+		<div class="col-xs-6 col-sm-2">
+			<div class="panel panel-info skill"><div class="panel-heading">RUBY ON RAILS</div></div>
+			<div class="panel panel-info skill"><div class="panel-heading">GIT / GITHUB</div></div>
+			<div class="panel panel-info skill"><div class="panel-heading">POSTGRESQL</div></div>
+			<div class="panel panel-info skill"><div class="panel-heading">NODE.JS</div></div>
+			<div class="panel panel-info skill"><div class="panel-heading">AJAX</div></div>
+		</div>
+
+		<div class="col-xs-6 col-sm-2">
+			<div class="panel panel-info skill"><div class="panel-heading">EXPRESS.JS</div></div>
+			<div class="panel panel-info skill"><div class="panel-heading">MONGODB</div></div>
+			<div class="panel panel-info skill"><div class="panel-heading">ANGULAR JS</div></div>
+			<div class="panel panel-info skill"><div class="panel-heading">IONIC</div></div>
+		</div>
+
+		<div class="col-xs-12 col-sm-2">
+			<h3>Currently Learning:</h3>
+		</div>
+
+		<div class="col-xs-6 col-sm-2">
+			<div class="panel panel-warning skill"><div class="panel-heading">REACT JS</div></div>
+			<div class="panel panel-warning skill"><div class="panel-heading">REACT NATIVE</div></div>
+		</div>
+
+	</div>
+
+	<div id="contact" class="container-fluid">
+
+		<div class="container">
+			<div class="col-xs-12 col-sm-12">
+					<h1 id="projects-div-title">EDYEH<span class="projects-div-title-color">@</span>UCLA.EDU
+						<br/>
+					<span class="projects-div-subtext">Say hello!  I am available for hire for freelance projects.</span>
+				</h1>
+			</div>
+
+		</div>
+
+	</div>
+
+</body>
+</html>
