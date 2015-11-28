@@ -207,11 +207,27 @@ h3 {
 	padding: 50px 0px;
 }
 
+#design-div {
+	padding-top: 30px;
+	padding-bottom: 100px;
+	background: #eee;
+	color: #444;
+}
+
+#slides {
+	border-radius: 10px;
+}
+
+.design-image {
+	height: 350px;
+	margin: 10px;
+}
+
 .skill {
 	font-weight: 300;
 	box-shadow: 1px 1px 5px #eee;
 }
 
 #contact {
-	background: #eee;
+	background: #fff;
 }

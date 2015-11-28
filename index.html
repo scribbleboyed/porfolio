@@ -7,10 +7,7 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700,200' rel='stylesheet' type='text/css'>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular.js"></script>
-	<script src="js/app.js"></script>
+	<link href="css/lightbox.css" rel="stylesheet">
 </head>
 <body ng-app="">
 
@@ -25,7 +22,7 @@
 		<div class="nav-buttons">
 	      	<a href="#summary-div">About Me</a>
 	        <a href="#projects-div">Dev Projects</a>
-	        <a href="#summary2-div">Skills</a>
+	        <a href="#design-div">Design Projects</a>
 	        <a href="#contact">Contact</a>
 	    </div>
       </ul>
@@ -211,6 +208,24 @@
 
 	</div>
 
+	<div id="design-div" class="container-fluid">
+
+		<div class="container">
+
+			<h1 id="projects-div-title">
+				<span class="projects-div-title-color">DESIGN</span> PROJECTS<br/>
+				<span class="projects-div-subtext">Created with Adobe Photoshop & Illustrator</span>
+			</h1>
+
+			<a href="images/2.jpg" data-lightbox="Lotus Steps Poster 2010" data-title="UCLA Lotus Steps Poster 2008"><img src="images/2.jpg" class="design-image"></a>
+			<a href="images/8.jpg" class="design-image" data-lightbox="UCLA Lotus Steps Poster Fall 2010" data-title="Lotus Steps Poster 2010"><img src="images/8.jpg" class="design-image"></a>
+			<a href="images/9.jpg" class="design-image" data-lightbox="UCLA Lotus Steps Poster Spring 2010" data-title="Lotus Steps Poster 2010"><img src="images/9.jpg" class="design-image"></a>
+			<a href="images/11.jpg" class="design-image" data-lightbox="UCLA ACA Hip Hop Flyer" data-title="Lotus Steps Poster 2010"><img src="images/11.jpg" class="design-image"></a>
+
+		</div>
+
+	</div>
+
 	<div id="contact" class="container-fluid">
 
 		<div class="container">
@@ -224,6 +239,14 @@
 		</div>
 
 	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular.js"></script>
+	<!-- jQuery library (served from Google) -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/app.js"></script>
 
 </body>
 </html>

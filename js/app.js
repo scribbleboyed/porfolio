@@ -1,5 +1,7 @@
 $(document).ready(function(){
-    $('[data-toggle="popover"]').popover(); 
+  $('.your-class').slick({
+  	fade: true
+  });
 });
 
 $(window).scroll(function() {    
